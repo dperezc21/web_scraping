@@ -1,0 +1,13 @@
+periodicos:
+  eluniversal_mx:
+    url: 'http://www.eluniversal.com.mx/'
+    queries:
+      article_link: '.field-content a'
+      article_body: '.field-name-body'
+      article_title: '.pane-content h1'
+  eluniversal:
+    url: 'https://www.eluniversal.com.co/'
+    queries:
+      article_link: '.info a'
+      article_title: '.priority-content'
+      article_body: '.paragraph p'
